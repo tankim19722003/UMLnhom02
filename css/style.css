@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+<!--Comment in using-->
+.hide {
+  display: none ;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.form_body-header  .none{
+	display: none;
+}
+
+.show_block {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+.show_flex {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.container {	
+	height:100vh;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction:column;
+}
+
+.form_body {
+	width:490px;
+	border-radius:10px;
+	border:1px solid #ccc;
+	padding:48px 40px 36px 40px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+}
+.form_body-header {
+	margin-bottom:20px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+.account_header-enter{
+	border:1px solid #ccc;
+	padding:5px 20px;
+	font-family: Google Sans,Noto Sans Myanmar UI,arial,sans-serif;
+	font-weight:500;
+	border-radius:10px;
+}
+.form_body-header h1 {
+	font-size:2em;
+	font-family: 'Roboto', sans-serif;
+	padding:10px;
+	font-weight:400;
+}
+.form_body-header p {
+	font-family: serif;
+	font-size:1.2rem;
+	font-family: 'Roboto', sans-serif;
+}
+.logo_img {
+	width:120px;
+	object-fit:cover;
+}
+
+.form-relation {
+	display:flex;
+	justify-content:flex-start;
+	width:100%;
+	padding-top:24px;
+}
+
+.form_body-input {
+	width:100%;
+}
+.form_body-input input {
+	width:100%;
+	height:50px;
+	font-size:1.2rem;	
+	border-radius:7px;
+	border:1px solid #ccc;
+	padding:30px 10px;
+}
+.form_body-input input:focus {
+	border:2px solid blue;
+	outline:none;
+}
+.forget_account-wrap {
+	padding:4px 0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:500;
+	text-decoration: none;
+}
+.show_account {
+	display:flex;
+	
+}
+.forget_account-wrap a {
+	text-decoration: none;
+	font-size:1.2rem;
+}
+
+.policy {
+	margin-top:52px;
+	font-weight:500;
+	color: rgb(95,99,104);
+	
+}
+.policy a{
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.btn_wrap {
+	margin-top:40px;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	padding-bottom:40px;
+}
+
+.btn_wrap a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration:none;
+	font-weight:500;
+}
+.btn_wrap button {
+	font-size:1.2rem;
+	padding:10px 24px;
+}
+.form_body-header-next {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.account_header_info p {
+	margin:0 10px;
+
+}
+.account_header_info{
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+	border:1px solid #ccc;
+	padding:7px 20px;
+	border-radius:20px;
+}
+
+.show_password{
+	/*display:flex;*/
+	align-items:center;
+	padding-top:10px;
+}
+#show_pass_input{
+	margin-right:5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form_footer{
+	width:490px;
+	margin-top:16px;
+}
+
+.form_footer_link{ 
+	text-decoration:none;
+	color:black;
+}
+.form_footer_body {
+	display:flex;
+	justify-content: space-between;
+}
